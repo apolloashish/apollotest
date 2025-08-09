@@ -1,2 +1,4 @@
+cursor/setup-moodle-python-connection-be19
 requests>=2.32.3
 python-dotenv>=1.0.1
+

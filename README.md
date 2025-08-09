@@ -1,3 +1,4 @@
+cursor/setup-moodle-python-connection-be19
 ## Moodle Python Client (Basic)
 
 A minimal Python client to call Moodle's REST web services and a small example to fetch site info.
@@ -67,3 +68,5 @@ users = client.get_users_by_field(field="email", values=["teacher@example.com"])
 - Most functions and parameter shapes are documented in your Moodle instance under: `/admin/webservice/documentation.php`.
 - When passing lists/dicts to `client.call(...)`, parameters are automatically encoded into Moodle's expected bracket notation (e.g., `param[0][sub]`).
 - Errors from Moodle are raised as `MoodleError`.
+
+
